@@ -1,6 +1,5 @@
 # vue3-light-carousel
 
-<h1>vue3-light-carousel</h1>
 A simple carousel slider for Vue 3 with slide and navigation customization options.
 
 ## Quick Start
@@ -14,11 +13,14 @@ $ npm install vue3-light-carousel
 Import component and css styles:
 
 ```vue
-//main.ts import { createApp } from 'vue' import App from './App.vue' import
-Vue3LightCarousel from
-'../node_modules/vue3-light-carousel/dist/vue3-light-carousel.mjs' import
-"../node_modules/vue3-light-carousel/dist/style.css" createApp(App)
-.use(Vue3LightCarousel) .mount('#app')
+//main.ts import { createApp } from 'vue' 
+import App from './App.vue' 
+import Vue3LightCarousel from '../node_modules/vue3-light-carousel/dist/vue3-light-carousel.mjs' 
+import "../node_modules/vue3-light-carousel/dist/style.css" 
+
+createApp(App)
+.use(Vue3LightCarousel)
+.mount('#app')
 ```
 
 ```vue
