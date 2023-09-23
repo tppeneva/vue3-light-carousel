@@ -1,0 +1,25 @@
+{
+  "name": "vue3-light-carousel",
+  "version": "0.0.5",
+  "main": "./dist/vue3-light-carousel.umd.js",
+  "module": "./dist/vue3-light-carousel.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue3-light-carousel.es.js",
+      "require": "./dist/vue3-light-carousel.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
+  }
+}
